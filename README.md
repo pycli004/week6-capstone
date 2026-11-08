@@ -24,7 +24,7 @@ churnguard/
 ├── logs/          # Prediction logs (auto-generated)
 ├── docs/          # Extended documentation
 ├── requirements.txt
-└── .env.example
+
 Setup
 1. Clone the repository and install dependencies
 git clone <repo-url>
@@ -40,7 +40,7 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 2. Configure environment variables
-Copy .env.example to .env and set your API key:
+Create a `.env` file in the project root and set your API key:
 API_KEY=your-secret-key-here
 BACKEND_URL=http://127.0.0.1:8000
 3. Train the model (first time only)
